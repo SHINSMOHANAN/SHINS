@@ -8,8 +8,9 @@ const celsius = [0, 20, 30, 40];
 // Use the map() function and store the result in fahrenheit.
 
 let fahrenheit = [];
+fahrenheit = celsius.map(c => (c * 9/5) + 32);
+console.log(fahrenheit);
 
-// Write your code below
 
 
 // Do not modify this line
